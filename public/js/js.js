@@ -13,7 +13,7 @@ function in_view(){
     var element_bottom = (element_height + element_top);
 
     if ((element_bottom >= window_top) && (element_top <= window_bottom)){
-      $element.addClass('in-view');
+      $element.addClass('in-view').delay(800);
     }
     else{
       $element.removeClass('in-view');
