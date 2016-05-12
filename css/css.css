@@ -26,32 +26,22 @@
   transition: all 1000ms ease-in;
   transition-delay:2s;
   transform: translate3d(-100px, 0px, 0px);
-  -webkit-animation-name: scalex;
--webkit-animation-duration:3s;
--webkit-animation-iteration-count:infinite;
--webkit-animation-timing-function:ease-in-out;
--moz-animation-name: scale;
--moz-animation-duration:3s;
--moz-animation-iteration-count:infinite;
--moz-animation-timing-function:ease-in-out;
-
 -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-name: Floating;
     -moz-animation-duration: 3s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
-
 }
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }
+    to {-webkit-transform: translate(0, -0px);}
 }
+
 .animation-element.slide-left.in-view #divthree_h2_1 {
   margin-left:15%;
   opacity: 1;
@@ -62,10 +52,25 @@
   transition: all 1000ms ease-in;
   transition-delay:2.5s;
   transform: translate3d(-100px, 0px, 0px);
+  -webkit-animation-name: Floatingy;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  @-webkit-keyframes Floatingy{
+      from {-webkit-transform:translate(0, 0px);}
+      60% {-webkit-transform:translate(5px, 10px);}
+      to {-webkit-transform: translate(0, -0px);}
+
 }
 
 .animation-element.slide-left.in-view #divthree_h2_2 {
-  margin-left:20%;
+  margin-left:18%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
@@ -74,10 +79,25 @@
   transition: all 1000ms ease-in;
   transition-delay:3s;
   transform: translate3d(-100px, 0px, 0px);
+  -webkit-animation-name: Floatingz;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  @-webkit-keyframes Floatingz{
+      from {-webkit-transform:translate(0, 0px);}
+      50% {-webkit-transform:translate(12px, 8px);}
+      to {-webkit-transform: translate(0, -0px);}
+
 }
 
 .animation-element.slide-left.in-view #divthree_h2_3 {
-  margin-left:25%;
+  margin-left:10%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
@@ -86,10 +106,25 @@
   transition: all 1000ms linear;
   transition-delay:3.5s;
   transform: translate3d(-100px, 0px, 0px);
+  -webkit-animation-name: Floatingx;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  @-webkit-keyframes Floatingx{
+      from {-webkit-transform:translate(0, 0px);}
+      65% {-webkit-transform:translate(0, 15px);}
+      to {-webkit-transform: translate(0, -0px);}
+
 }
 
 .animation-element.slide-left.in-view #divthree_h2_4 {
-  margin-left:30%;
+  margin-left:18%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
@@ -102,9 +137,25 @@
 }
 
 .animation-element.slide-left.in-view #divthree_h2_5 {
-  margin-left:35%;
+  margin-left:15%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
+  -webkit-animation-name: Floatingy;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  @-webkit-keyframes Floatingy{
+      from {-webkit-transform:translate(0, 0px);}
+      60% {-webkit-transform:translate(5px, 10px);}
+      to {-webkit-transform: translate(0, -0px);}
+
+
 }
 
 .animation-element.slide-left #divthree_h2_6 {
@@ -112,10 +163,25 @@
   transition: all 1000ms linear;
   transition-delay:4.5s;
   transform: translate3d(-100px, 0px, 0px);
+  -webkit-animation-name: Floatingz;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  @-webkit-keyframes Floatingz{
+      from {-webkit-transform:translate(0, 0px);}
+      50% {-webkit-transform:translate(12px, 8px);}
+      to {-webkit-transform: translate(0, -0px);}
+
 }
 
 .animation-element.slide-left.in-view #divthree_h2_6 {
-  margin-left:40%;
+  margin-left:15%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
@@ -124,10 +190,25 @@
   transition: all 1000ms linear;
   transition-delay:5s;
   transform: translate3d(-100px, 0px, 0px);
+  -webkit-animation-name: Floatingy;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  @-webkit-keyframes Floatingy{
+      from {-webkit-transform:translate(0, 0px);}
+      60% {-webkit-transform:translate(5px, 10px);}
+      to {-webkit-transform: translate(0, -0px);}
+
 }
 
 .animation-element.slide-left.in-view #divthree_h2_7 {
-    margin-left:45%;
+    margin-left:18%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
@@ -136,10 +217,26 @@
   transition: all 1000ms linear;
   transition-delay:5.5s;
   transform: translate3d(-100px, 0px, 0px);
+  -webkit-animation-name: Floatingx;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+  }
+  @-webkit-keyframes Floatingx{
+      from {-webkit-transform:translate(0, 0px);}
+      65% {-webkit-transform:translate(0, 15px);}
+      to {-webkit-transform: translate(0, -0px);}
+
+
 }
 
 .animation-element.slide-left.in-view #divthree_h2_8 {
-  margin-left:50%;
+  margin-left:10%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
@@ -155,7 +252,26 @@
   -ms-transform: translate(200px, 0px);
   transform: translate3d(-200px, 120px, 0px);
 }
+.animation-element.fadeIn #divthree_h2_9{
+  opacity:0;
+}
+.animation-element.fadeIn.in-view #divthree_h2_9{
+  opacity: 1
+  transition: opacity 2000ms ease;
+  transition-delay:4s;
+  margin-left: 60%;
 
+}
+.animation-element.fadeIn #divthree_h2_10{
+  opacity:0;
+}
+.animation-element.fadeIn.in-view #divthree_h2_10{
+  opacity: 1
+  transition: opacity 2000ms ease;
+  transition-delay:4s;
+  margin-left: 60%;
+
+}
 .animation-element.slide-right.in-view {
   opacity: 1;
   -moz-transform: translate3d(0px, 250px, 0px);
