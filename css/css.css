@@ -24,7 +24,7 @@
 .animation-element.slide-left #divthree_h2_1 {
   opacity: 0;
   transition: all 1000ms ease-in;
-  transition-delay:2s;
+  transition-delay:1.25s;
   transform: translate3d(-100px, 0px, 0px);
 -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 3s;
@@ -50,7 +50,7 @@
 .animation-element.slide-left #divthree_h2_2 {
   opacity: 0;
   transition: all 1000ms ease-in;
-  transition-delay:2.5s;
+  transition-delay:1.75s;
   transform: translate3d(-100px, 0px, 0px);
   -webkit-animation-name: Floatingy;
       -webkit-animation-duration: 3s;
@@ -77,7 +77,7 @@
 .animation-element.slide-left #divthree_h2_3 {
   opacity: 0;
   transition: all 1000ms ease-in;
-  transition-delay:3s;
+  transition-delay:2.25s;
   transform: translate3d(-100px, 0px, 0px);
   -webkit-animation-name: Floatingz;
       -webkit-animation-duration: 3s;
@@ -104,7 +104,7 @@
 .animation-element.slide-left #divthree_h2_4 {
   opacity: 0;
   transition: all 1000ms linear;
-  transition-delay:3.5s;
+  transition-delay:2.5s;
   transform: translate3d(-100px, 0px, 0px);
   -webkit-animation-name: Floatingx;
       -webkit-animation-duration: 3s;
@@ -132,12 +132,12 @@
 .animation-element.slide-left #divthree_h2_5 {
   opacity: 0;
   transition: all 1000ms linear;
-  transition-delay:4s;
+  transition-delay:2.75s;
   transform: translate3d(-100px, 0px, 0px);
 }
 
 .animation-element.slide-left.in-view #divthree_h2_5 {
-  margin-left:15%;
+  margin-left:25%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
   -webkit-animation-name: Floatingy;
@@ -161,7 +161,7 @@
 .animation-element.slide-left #divthree_h2_6 {
   opacity: 0;
   transition: all 1000ms linear;
-  transition-delay:4.5s;
+  transition-delay:3.5s;
   transform: translate3d(-100px, 0px, 0px);
   -webkit-animation-name: Floatingz;
       -webkit-animation-duration: 3s;
@@ -188,7 +188,7 @@
 .animation-element.slide-left #divthree_h2_7 {
   opacity: 0;
   transition: all 1000ms linear;
-  transition-delay:5s;
+  transition-delay:4s;
   transform: translate3d(-100px, 0px, 0px);
   -webkit-animation-name: Floatingy;
       -webkit-animation-duration: 3s;
@@ -215,7 +215,7 @@
 .animation-element.slide-left #divthree_h2_8 {
   opacity: 0;
   transition: all 1000ms linear;
-  transition-delay:5.5s;
+  transition-delay:5s;
   transform: translate3d(-100px, 0px, 0px);
   -webkit-animation-name: Floatingx;
       -webkit-animation-duration: 3s;
@@ -236,7 +236,7 @@
 }
 
 .animation-element.slide-left.in-view #divthree_h2_8 {
-  margin-left:10%;
+  margin-left:30%;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
